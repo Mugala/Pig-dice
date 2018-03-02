@@ -1,0 +1,23 @@
+.player1 {
+  float: left;
+  width: 300px;
+  height: 300px;
+  background: #F5F5F5;
+  border: #999 1px solid;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  margin: 5px;
+}
+
+.player2 {
+  float: right;
+  width: 300px;
+  height: 300px;
+  background: #F5F5F5;
+  border: #999 1px solid;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  margin: 5px;
+}
