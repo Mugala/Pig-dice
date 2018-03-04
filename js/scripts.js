@@ -3,6 +3,12 @@
 
    iRandomNumber = Math.ceil(Math.random()*6);
    console.log(iRandomNumber)
+   
+   function rollDice(){
+    var die = document.getElementById("die");
+    var iRandomNumber = Math.floor(Math.random()* 6) +1;
+    die.innerHTML = iRandomNumber;
+ }
  
    
 
