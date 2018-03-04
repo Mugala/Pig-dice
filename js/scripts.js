@@ -3,7 +3,7 @@
 
    iRandomNumber = Math.ceil(Math.random()*6);
    console.log(iRandomNumber)
-   
+
    function rollDice(){
     var die = document.getElementById("die");
     var iRandomNumber = Math.floor(Math.random()* 6) +1;
@@ -11,21 +11,38 @@
  }
  
    
-
+ var P1 = {
+  setNumber: function(number) {
+    this.number = number;
+  },
+  addPoints: function(points) {
+    this.score += points;
+  },
+  score: 0
+};
+var P2 = {
+  setNumber: function(number) {
+    this.number = number;
+  },
+  addPoints: function(points) {
+    this.score += points;
+  },
+  score: 0
+};
 
 
 
 //user interface logic
 $(document).ready(function() {
-  $("#add-address").click(function() { 
-
+  $("#p1-score").click(function() { 
+          
    });
   
-  
-  
+
+   
   
 
-});
+}); 
 
 
 /*var Player1 = {
